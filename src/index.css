@@ -1,9 +1,9 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Urbanist", sans-serif;
-    /* background-color: rgb(233, 206, 165); */
+    /* background-color: rgb(233, 206, 165); 
 }
 
 html {
@@ -50,7 +50,7 @@ a {
     text-decoration: none;
 }
 
-/* theme */
+/* theme 
 
 :root {
     --main-color: #0062ff;
@@ -86,4 +86,4 @@ a {
 
 .grid-three--cols {
     grid-template-columns: repeat(3, 1fr);
-}
+} */
