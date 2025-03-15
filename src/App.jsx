@@ -6,6 +6,9 @@ import { EventProps } from './components/EventProps.jsx'
 import { Practice } from './components/Practice.jsx'
 import { ToggleSwitch } from './Projects/ToggleSwitch/ToggleSwitch.jsx'
 import  {ToDo} from './Projects/ToDoApp/ToDo.jsx'
+import {RegistrationForm} from './hooks/useState/RegistrationForm.jsx'
+import { LoginForm } from "./hooks/useState/loginform.jsx";
+import { ContactForm } from "./hooks/useState/ContactForm.jsx";
 export const App = (props) => {
   return (
     <section className={styles.container}>
@@ -14,7 +17,10 @@ export const App = (props) => {
       {/* <EventProps/> */}
       {/* <ToggleSwitch /> */}
       {/* <Practice/> */}
-      <ToDo/>
+      {/* <ToDo/> */}
+      {/* <RegistrationForm/> */}
+      {/* <LoginForm/> */}
+      <ContactForm/>
     </section>
   )
 }

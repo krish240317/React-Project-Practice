@@ -1,4 +1,6 @@
+
 const todoKey = "reactTodo";
+
 export const getLocalData = () => {
     const rawTodo = localStorage.getItem(todoKey);
     if (!rawTodo) return [];
