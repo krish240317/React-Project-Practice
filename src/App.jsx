@@ -9,6 +9,11 @@ import  {ToDo} from './Projects/ToDoApp/ToDo.jsx'
 import {RegistrationForm} from './hooks/useState/RegistrationForm.jsx'
 import { LoginForm } from "./hooks/useState/loginform.jsx";
 import { ContactForm } from "./hooks/useState/ContactForm.jsx";
+import {CleanUp} from './hooks/useEffect/CleanUp.jsx'
+import {HowNotToFechApi} from './hooks/useEffect/howNotToFechApi.jsx'
+import {Pokemon} from './hooks/useEffect/Pokemon.jsx'
+
+
 export const App = (props) => {
   return (
     <section className={styles.container}>
@@ -20,7 +25,10 @@ export const App = (props) => {
       {/* <ToDo/> */}
       {/* <RegistrationForm/> */}
       {/* <LoginForm/> */}
-      <ContactForm/>
+      {/* <ContactForm/> */}
+      {/* <CleanUp/> */}
+      {/* <HowNotToFechApi/> */}
+      <Pokemon/>
     </section>
   )
 }
