@@ -15,7 +15,8 @@ import { Pokemon } from './hooks/useEffect/Pokemon.jsx'
 import { UseRef } from "./hooks/useRef/UseRef.jsx";
 import { Home } from "./hooks/ContexApi/Home.jsx";
 import { BioProvider } from "./hooks/ContexApi/index.jsx";
-
+import { LightProvider, ToggleTheam } from "./hooks/ContexApi/DarkLight.jsx";
+import {UseMemo2} from './hooks/Memo/useMemo2.jsx'
 
 export const App = (props) => {
   return (
@@ -34,10 +35,14 @@ export const App = (props) => {
       {/* <Pokemon/> */}
       {/* <UseRef/> */}
 
-      <BioProvider>
+      {/* <BioProvider>
         <Home />
-      </BioProvider>
+      </BioProvider> */}
 
+      {/* <LightProvider>
+        <ToggleTheam/>
+      </LightProvider> */}
+      <UseMemo2/>
     </section>
   )
 }
